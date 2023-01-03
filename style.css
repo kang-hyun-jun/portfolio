@@ -1,0 +1,43 @@
+#face
+{
+  width: 320px;
+  height: 400px;
+}
+#notion
+{
+  width: 50px;
+  height: 50px;
+}
+#git
+{
+  width: 100px;
+  height: 50px;
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 300px;
+  z-index: 10;
+  background-color: #040b14;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+  float : left;
+}
+li a
+{
+  text-decoration: none;
+  display: block;
+  color: #a8a9b4;
+  padding: 8px 16px;
+}
+section
+{
+  text-align: center;
+  margin-left: 300px;
+}
