@@ -1,7 +1,22 @@
+@font-face{
+  font-family:"Nanum Gothic";
+  src: url("./Nanum_Gothic/NanumGothic-Regular.ttf");
+}
+@font-face
+{
+  font-family: "Raly";
+  src: url("./Raleway/static/Raleway-Bold.ttf");
+}
+body{
+  font-family:"Raly","Nanum Gothic"!important;
+}
+/*
+이미지 부분
+*/
 #face
 {
   width: 320px;
-  height: 400px;
+  height: 400px;  
 }
 #notion
 {
@@ -13,31 +28,194 @@
   width: 100px;
   height: 50px;
 }
+/*
+이미지 부분
+*/
+/*
+네비바
+*/
 nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
   width: 300px;
-  z-index: 10;
   background-color: #040b14;
   position: fixed;
   height: 100%;
   overflow: auto;
   text-align: center;
-  float : left;
 }
 li a
 {
   text-decoration: none;
-  display: block;
   color: #a8a9b4;
+  font-size: 18px;
+}
+nav li
+{
   padding: 8px 16px;
 }
+/*
+네비바
+*/
 section
 {
-  text-align: center;
   margin-left: 300px;
+}
+/*
+시작 이미지 및 문구
+*/
+#st
+{
+  background-image: url(img/web.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#s
+{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#st h1
+{
+  font-size: 100px;
+}
+#st p
+{
+  font-size: 30px;
+}
+
+/*
+시작 이미지 및 문구
+*/
+article
+{
+  margin-left: 230px;
+}
+section h2
+{
+  margin-left: 230px;
+  font-size: 42px;
+  color :#173b6c;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-right: 900px;
+}
+/*
+information 부분
+*/
+#allinfo
+{
+  display: flex;
+}
+#information
+{
+  display: flex;
+}
+#information h3
+{
+  font-size: 32px;
+  color :#173b6c;
+  font-weight: bold;
+}
+#allinfo h4
+{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+#allinfo p
+{
+  margin-top: 30px;
+  margin-left: 25px;
+  line-height: 30px;
+}
+#allinfo ul
+{
+  margin-top: 20px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+#eel
+{
+  margin-top: 50px;
+  margin-right: 300px;
+}
+#alleel h3
+{
+  font-size: 26px;
+  color :#173b6c;
+  font-weight: 700;
+  margin-top: 60px;
+}
+#alleel h4
+{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.year
+{
+  background-color: #e4edf9;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 15px;
+  margin: 15px 0px;
+}
+#alleel
+{
+  display: flex;
+}
+#edu #edutext
+{
+  border-left: 2px solid #1f5297;
+  padding-left: 20px;
+}
+#edu #edutext ul
+{
+  list-style-type: disc;
+  padding-left: 20px
+}
+#edu #edutext li
+{
+  margin-top: 20px;
+}
+#ext #exttext
+{
+  border-left: 2px solid #1f5297;
+  padding-left: 20px;
+}
+#pftext
+{
+  display: flex;
+  width: 1000px;
+}
+#pftext h3
+{
+  font-size: 1.5rem;
+  margin: 8px 0px;
+}
+#pftext div
+{
+  margin: 25px 15px;
+}
+#pftext hr
+{
+  margin: 16px 0px;
+}
+#pftext p
+{
+  margin: 16px 0px;
+}
+.pfimg
+{
+  max-width: 100%;
 }
