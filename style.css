@@ -219,3 +219,30 @@ information 부분
 {
   max-width: 100%;
 }
+.skilltext
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.skilltext div
+{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.skilltext h3
+{
+  margin-top: 20px;
+  font-size: 24px;
+}
+.skilltext p
+{
+  font-size: 15px;
+}
+
+#topa
+{
+  padding: 400px 0;
+  overflow: hidden;
+}
